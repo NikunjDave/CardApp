@@ -1,4 +1,4 @@
-"# CardApp" 
+
 # Overview
 
 ![Overview](https://github.com/NikunjDave/CardApp/blob/master/card_app.gif)
@@ -9,6 +9,6 @@
 * Restart it from the beginning.
 * Track the progress of cards.
 
-#Library used
+# Library used
 (https://github.com/yuyakaido/CardStackView.git)
 
