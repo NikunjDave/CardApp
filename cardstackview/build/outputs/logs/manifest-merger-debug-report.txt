@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml:3:1-58
+INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml:3:1-58
+INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml:3:1-58
+INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml:3:1-58
+INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml:3:1-58
+INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml:3:1-58
+INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml:3:1-58
+	package
+		ADDED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml:3:11-56
+		INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml
+		INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml
+		ADDED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml:3:1-58
+		INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml:3:1-58
+	android:versionCode
+		INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml
+		ADDED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml:3:1-58
+		INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml
+uses-sdk
+INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml
+INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml
+INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml
+INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml
+		ADDED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml
+		INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml
+		ADDED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml
+		INJECTED from F:\github\CardApp\cardstackview\src\main\AndroidManifest.xml

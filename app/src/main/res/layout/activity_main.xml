@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:id="@+id/rlRoot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false">
+
+        <LinearLayout
+                android:id="@+id/llProgress"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+            <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_margin="4dp"
+                    android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+        <RelativeLayout
+                android:id="@+id/buttonContainer"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_height="80dp"
+                android:layout_alignParentBottom="true"
+                android:clipChildren="false">
+
+
+            <ImageView
+                    android:id="@+id/ivPrevious"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_previous"
+                    android:layout_toLeftOf="@+id/reloadButton"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_toStartOf="@+id/reloadButton"/>
+
+
+            <ImageView
+                    android:id="@+id/reloadButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:padding="5dp"
+                    android:src="@drawable/rewind_blue_24dp"
+            />
+
+            <ImageView
+                    android:id="@+id/ivNext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_next"
+                    android:layout_toRightOf="@+id/reloadButton"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_toEndOf="@+id/reloadButton" />
+        </RelativeLayout>
+
+        <com.yuyakaido.android.cardstackview.CardStackView
+                android:id="@+id/cardStackView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/buttonContainer"
+                android:layout_below="@+id/llProgress"
+                android:padding="4dp"
+                android:clipToPadding="false">
+        </com.yuyakaido.android.cardstackview.CardStackView>
+
+        <TextView
+                android:id="@+id/emptyCard"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                android:gravity="center"
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                android:layout_above="@+id/buttonContainer"
+                android:layout_below="@+id/llProgress"
+                android:text="@string/all_card_has_been_swipe"
+        />
+
+
+    </RelativeLayout>
+
+
+    <ProgressBar
+            android:id="@+id/loading"
+            android:theme="@style/AppTheme.WhiteAccent"
+            android:layout_width="wrap_content"
+            android:layout_margin="4dp"
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"/>
+
+
+</LinearLayout>
+
